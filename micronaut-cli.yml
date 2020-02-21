@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: notifier
+---
+testFramework: spock
+sourceLanguage: groovy

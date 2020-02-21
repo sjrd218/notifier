@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: notifier
+  server:
+    port: 8085
+  router:
+    static-resources:
+      web:
+        enabled: true
+        #if classpath:web is used reloading doesn't work without restarting mn server
+        paths: file:/Users/stephen/code/notifier/src/main/resources/web

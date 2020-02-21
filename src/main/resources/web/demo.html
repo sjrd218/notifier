@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>notifier demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./notifier.umd.js"></script>
+
+<link rel="stylesheet" href="./notifier.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: notifier
+  }
+}).$mount('#app')
+</script>
